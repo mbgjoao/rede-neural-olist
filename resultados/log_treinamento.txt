@@ -1,0 +1,80 @@
+Entradas: 39  |  treino 63,816  validação 13,677  teste 13,677
+
+=== Candidata 39-32-16-1 (leaky_relu) ===
+Época    1/300  perda treino 0.4547  perda validação 0.4563
+Época   10/300  perda treino 0.4458  perda validação 0.4488
+Época   20/300  perda treino 0.4444  perda validação 0.4483
+Época   30/300  perda treino 0.4437  perda validação 0.4481
+Época   40/300  perda treino 0.4433  perda validação 0.4480
+Época   50/300  perda treino 0.4432  perda validação 0.4484
+Parada antecipada na época 55; melhor época: 35 (perda val. 0.4479)
+
+=== Candidata 39-16-1 (leaky_relu) ===
+Época    1/300  perda treino 0.4522  perda validação 0.4549
+Época   10/300  perda treino 0.4455  perda validação 0.4497
+Época   20/300  perda treino 0.4446  perda validação 0.4488
+Época   30/300  perda treino 0.4442  perda validação 0.4486
+Época   40/300  perda treino 0.4440  perda validação 0.4483
+Época   50/300  perda treino 0.4439  perda validação 0.4484
+Época   60/300  perda treino 0.4437  perda validação 0.4482
+Época   70/300  perda treino 0.4435  perda validação 0.4481
+Época   80/300  perda treino 0.4436  perda validação 0.4482
+Parada antecipada na época 83; melhor época: 63 (perda val. 0.4480)
+
+Arquitetura escolhida: 39-16-1  |  limiar (validação): 0.76
+
+=== Comparação: 39-16-1 com tanh (referência) ===
+Época    1/300  perda treino 0.4504  perda validação 0.4524
+Época   10/300  perda treino 0.4454  perda validação 0.4497
+Época   20/300  perda treino 0.4448  perda validação 0.4494
+Época   30/300  perda treino 0.4444  perda validação 0.4492
+Época   40/300  perda treino 0.4442  perda validação 0.4489
+Época   50/300  perda treino 0.4440  perda validação 0.4490
+Época   60/300  perda treino 0.4439  perda validação 0.4489
+Época   70/300  perda treino 0.4438  perda validação 0.4488
+Época   80/300  perda treino 0.4439  perda validação 0.4490
+Época   90/300  perda treino 0.4436  perda validação 0.4489
+Época  100/300  perda treino 0.4436  perda validação 0.4487
+Época  110/300  perda treino 0.4435  perda validação 0.4489
+Parada antecipada na época 115; melhor época: 95 (perda val. 0.4485)
+
+=== Rede base da playlist: 39-10-2, tanh + softmax, lote completo, taxa 0.001, 200 épocas ===
+Época: [20 / 200]  Acurácia: 0.823  Perda: 40.1491
+Época: [40 / 200]  Acurácia: 0.770  Perda: 9.8538
+Época: [60 / 200]  Acurácia: 0.823  Perda: 20.4810
+Época: [80 / 200]  Acurácia: 0.419  Perda: 17.6258
+Época: [100 / 200]  Acurácia: 0.823  Perda: 23.9098
+Época: [120 / 200]  Acurácia: 0.823  Perda: 66.3950
+Época: [140 / 200]  Acurácia: 0.823  Perda: 22.9604
+Época: [160 / 200]  Acurácia: 0.823  Perda: 65.4498
+Época: [180 / 200]  Acurácia: 0.823  Perda: 38.0876
+Época: [200 / 200]  Acurácia: 0.368  Perda: 13.3045
+
+=== Rede base da playlist: 39-10-2, tanh + softmax, lote completo, taxa 2e-05, 1500 épocas ===
+Época: [150 / 1500]  Acurácia: 0.826  Perda: 0.4445
+Época: [300 / 1500]  Acurácia: 0.826  Perda: 0.4440
+Época: [450 / 1500]  Acurácia: 0.826  Perda: 0.4438
+Época: [600 / 1500]  Acurácia: 0.826  Perda: 0.4436
+Época: [750 / 1500]  Acurácia: 0.826  Perda: 0.4435
+Época: [900 / 1500]  Acurácia: 0.826  Perda: 0.4433
+Época: [1050 / 1500]  Acurácia: 0.826  Perda: 0.4432
+Época: [1200 / 1500]  Acurácia: 0.826  Perda: 0.4431
+Época: [1350 / 1500]  Acurácia: 0.826  Perda: 0.4431
+Época: [1500 / 1500]  Acurácia: 0.826  Perda: 0.4430
+
+=== VALIDAÇÃO: todas as variantes (limiar escolhido na validação) ===
+39-32-16-1 leaky_relu              perda 0.44787  F1 macro 0.5846  acur. balanceada 0.5858
+39-16-1 leaky_relu                 perda 0.44805  F1 macro 0.5905  acur. balanceada 0.5868
+39-16-1 tanh                       perda 0.44853  F1 macro 0.5895  acur. balanceada 0.5861
+base playlist taxa 0.001           perda 61.30112  F1 macro 0.4514  acur. balanceada 0.5000
+base playlist taxa 2e-05           perda 0.44855  F1 macro 0.5883  acur. balanceada 0.5850
+
+=== TESTE (avaliação final) ===
+Rede (limiar validação)    acurácia 0.7752  acur. balanceada 0.5875  F1 macro 0.5921
+Rede (limiar 0,5)          acurácia 0.8251  acur. balanceada 0.5206  F1 macro 0.4969
+Classe majoritária         acurácia 0.8230  acur. balanceada 0.5000  F1 macro 0.4514
+Matriz de confusão (linhas = real 0/1, colunas = previsto 0/1):
+[[ 719 1702]
+ [1372 9884]]
+
+Resultados salvos em C:\Rede neural\resultados

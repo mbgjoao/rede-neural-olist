@@ -1,0 +1,68 @@
+{
+  "pedidos_na_base": 91170,
+  "review_ids_compartilhados": {
+    "avaliacoes": 369,
+    "pedidos": 743,
+    "pessoas_diferentes_na_mesma_avaliacao": 0
+  },
+  "pessoas_com_varios_pedidos": {
+    "pessoas": 2465,
+    "pedidos": 5208,
+    "fracao_com_uma_so_classe": 0.819
+  },
+  "divisao_aleatoria_por_pedido": {
+    "pares": {
+      "treino_validacao": {
+        "clientes": 620,
+        "avaliacoes": 94
+      },
+      "treino_teste": {
+        "clientes": 518,
+        "avaliacoes": 66
+      },
+      "validacao_teste": {
+        "clientes": 142,
+        "avaliacoes": 17
+      }
+    },
+    "linhas_do_teste_com_cliente_do_treino": 536
+  },
+  "divisao_atual_por_cliente": {
+    "pares": {
+      "treino_validacao": {
+        "clientes": 0,
+        "avaliacoes": 0
+      },
+      "treino_teste": {
+        "clientes": 0,
+        "avaliacoes": 0
+      },
+      "validacao_teste": {
+        "clientes": 0,
+        "avaliacoes": 0
+      }
+    },
+    "linhas_do_teste_com_cliente_do_treino": 0
+  },
+  "correlacao_com_alvo": {
+    "n_vendedores": -0.131,
+    "n_itens": -0.13,
+    "tempo_entrega_dias": -0.127,
+    "n_produtos": -0.119,
+    "frete_total": -0.077,
+    "prazo_prometido_dias": -0.054,
+    "atraso_dias": -0.054,
+    "valor_pago_total": -0.028,
+    "parcelas_max": -0.028,
+    "preco_total": -0.021,
+    "tempo_aprovacao_horas": -0.016,
+    "n_pagamentos": -0.004
+  },
+  "z_maximo_contagens_sem_recorte": {
+    "n_itens": 35.1,
+    "n_vendedores": 31.7,
+    "n_produtos": 30.3,
+    "parcelas_max": 7.8,
+    "n_pagamentos": 69.6
+  }
+}

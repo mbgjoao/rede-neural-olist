@@ -1,0 +1,6 @@
+# Dados da Olist (grandes e com licença do Kaggle): baixar em dados/olist/
+dados/*
+!dados/resumo_base.json
+__pycache__/
+*.pyc
+.claude/

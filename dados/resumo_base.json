@@ -1,0 +1,15 @@
+{
+  "avaliacoes_tratadas": 98673,
+  "com_pedido_entregue_e_datas": 95824,
+  "com_itens_pagamentos_e_estado": 95823,
+  "respondidas_antes_da_entrega": {
+    "excluidas": 4653,
+    "classe_0": 4048,
+    "classe_1": 605
+  },
+  "base_final": {
+    "linhas": 91170,
+    "classe_0": 16139,
+    "classe_1": 75031
+  }
+}

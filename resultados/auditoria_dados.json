@@ -1,0 +1,110 @@
+{
+  "colunas_treino": {
+    "ok": true,
+    "detalhe": "39 entradas"
+  },
+  "colunas_validacao": {
+    "ok": true,
+    "detalhe": "39 entradas"
+  },
+  "colunas_teste": {
+    "ok": true,
+    "detalhe": "39 entradas"
+  },
+  "finitos_treino": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "alvo_binario_treino": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "finitos_validacao": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "alvo_binario_validacao": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "finitos_teste": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "alvo_binario_teste": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "sem_colunas_constantes_treino": {
+    "ok": true,
+    "detalhe": "[]"
+  },
+  "z_maximo_treino_menor_que_10": {
+    "ok": true,
+    "detalhe": "max |z| = 8.50"
+  },
+  "padronizacao_ajustada_no_treino": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "csv_reproduz_preprocessamento_treino": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "csv_reproduz_preprocessamento_validacao": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "csv_reproduz_preprocessamento_teste": {
+    "ok": true,
+    "detalhe": ""
+  },
+  "pedidos_disjuntos_treino_validacao": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "clientes_disjuntos_treino_validacao": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "pedidos_disjuntos_treino_teste": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "clientes_disjuntos_treino_teste": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "pedidos_disjuntos_validacao_teste": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "clientes_disjuntos_validacao_teste": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "review_id_nao_cruza_conjuntos": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "sem_identificadores_nas_entradas": {
+    "ok": true,
+    "detalhe": "[]"
+  },
+  "sem_avaliacao_respondida_antes_da_entrega": {
+    "ok": true,
+    "detalhe": "0"
+  },
+  "referencia_classe_majoritaria": {
+    "classe": 1,
+    "acuracia_treino": 0.8229754293594083,
+    "acuracia_validacao": 0.8229874972581707,
+    "acuracia_teste": 0.8229874972581707
+  },
+  "linhas": {
+    "treino": 63816,
+    "validacao": 13677,
+    "teste": 13677
+  },
+  "falhas": []
+}

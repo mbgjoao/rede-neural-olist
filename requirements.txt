@@ -1,0 +1,12 @@
+# A rede neural usa apenas NumPy. pandas lê e prepara os CSVs;
+# scikit-learn é usado somente para dividir os dados (StratifiedGroupKFold),
+# gerar o make_moons da demonstração da rede base e, nos testes, conferir as
+# métricas calculadas à mão.
+#
+# Versões exatas usadas para gerar os números do relatório (Python 3.14.3).
+# Outras versões recentes rodam o código, mas a divisão dos dados pode sair
+# diferente (o embaralhamento do StratifiedGroupKFold mudou entre versões do
+# scikit-learn), e com ela as métricas.
+numpy==2.5.4
+pandas==3.1.0
+scikit-learn==1.9.1

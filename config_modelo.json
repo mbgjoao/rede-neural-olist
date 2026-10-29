@@ -1,0 +1,23 @@
+{
+  "semente": 42,
+  "ativacao_oculta": "leaky_relu",
+  "alfa_leaky_relu": 0.01,
+  "arquiteturas_candidatas": {
+    "39-32-16-1": [32, 16],
+    "39-16-1": [16]
+  },
+  "tolerancia_simplicidade": 0.001,
+  "taxa_aprendizado": 0.05,
+  "tamanho_lote": 256,
+  "epocas_maximas": 300,
+  "paciencia": 20,
+  "criterio_limiar": "f1_macro",
+  "comparar_com_ativacao_da_referencia": "tanh",
+  "rede_base_playlist": {
+    "neuronios_ocultos": 10,
+    "execucoes": [
+      {"taxa_aprendizado": 0.001, "epocas": 200},
+      {"taxa_aprendizado": 2e-05, "epocas": 1500}
+    ]
+  }
+}
